@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #206492;
+  color: white;
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  width: 60%;
+  font-size: 28px;
+}
+
+.author {
+  display: block;
+  width: 60%;
+  text-align: right;
+  font-size: 12px;
+}
+
+#get-quote {
+  background-color: #0d6efd;
+  border: 2px solid #2e74c8;
+  color: white;
+  padding: 5px 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #3c598d;
+}
